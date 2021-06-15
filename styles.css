@@ -229,7 +229,7 @@ body {
   }
 }
 
-@media only screen and (device-width: 844px) and (device-height: 390px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (device-width: 844px) and (device-height: 390px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
   #logo {
     text-align: center;
   }
