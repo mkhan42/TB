@@ -10,8 +10,8 @@ body {
 }
 
 .taco-bell-logo {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
 }
 
 .heading {
@@ -133,7 +133,7 @@ body {
   display: none;
 }
 
-@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
   #logo {
     text-align: center;
   }
@@ -229,7 +229,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 844px) and (max-height: 390px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+@media only screen and (device-width: 844px) and (device-height: 390px) and (-webkit-device-pixel-ratio: 3) {
   #logo {
     text-align: center;
   }
@@ -434,107 +434,3 @@ body {
   }
 }
 
-/* @media only screen and (max-width: 1024px) and (max-height: 768px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
-  #logo {
-    text-align: center;
-  }
-
-  .taco-bell-logo {
-    width: 250px;
-    height: 250px;
-  }
-
-  .heading {
-    padding-bottom: 5%;
-    font-size: 42px;
-  }
-
-  .ending {
-    font-size: 42px;
-  }
-
-  #marketing-copy {
-    display: none;
-  }
-
-  #marketing-copy-iPhone {
-    display: block;
-    padding-bottom: 5%;
-  }
-
-  .flex-container {
-    width: 80%;
-    min-height: 100px;
-    margin: 0 auto;
-    display: flex;
-  }
-
-  .card {
-    border-radius: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    background-color: #badbdb;
-    box-shadow: 0px 0px 6px #9932cc;
-    flex: 1;
-  }
-
-  .iPhone-image {
-    display: block;
-    width: auto;
-    max-width: 400px;
-    height: 220px;
-    max-height: 200px;
-    width: 100%;
-    margin: auto;
-    border-radius: 5px 5px 0 0;
-    border: 3px solid #008b8b;
-  }
-
-  .card-container {
-    text-align: center;
-    padding-left: 3%;
-    padding-right: 3%;
-    margin: auto;
-    font-size: 20px;
-    color: rgb(37, 50, 53);
-  }
-
-  .btn-sm.card-btn {
-    font-size: 15px;
-  }
-
-  .btn-primary.card-btn {
-    margin-top: auto;
-    margin-bottom: 8%;
-  }
-
-  #call-to-action {
-    display: none;
-  }
-
-  #call-to-action-iPhone {
-    display: block;
-  }
-
-  .btn-iPhone {
-    margin-top: auto;
-    margin-bottom: 5%;
-    font-size: 20px;
-  }
-
-  .end-gif {
-    width: 200px;
-    height: 200px;
-    padding-top: 0%;
-  }
-
-  .fa {
-    font-size: 42px;
-  }
-
-  .socials {
-    color: #badbdb;
-  }
-} */
